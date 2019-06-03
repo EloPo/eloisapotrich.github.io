@@ -1,0 +1,94 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Eloisa Potrich"
+theme = "hugo-split-theme"
+
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2019 Eloisa Potrich"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Eloisa Potrich"
+  bio = "Hi, I am Eloisa Potrich. I am 21 years old, I am a student of Software Engineering, with experience in modeling UML, GO, Python, HTML, CSS, JavaScript, Vuejs, C, Wordpress, Java, Android Studio, IoT, SQLite, MongoDB, Ruby. Deions of user stories describing acceptance scenarios. Multidisciplinary team management using Agile, SCRUM and Kanban methodologies.Practical knowledge in invoicing, web programming, UX and project analysis."
+  shareImage = "images/ada.png"
+  twitterHandle = "Hi, I am Eloisa Potrich. I am 21 years old, I am a student of Software Engineering, with experience in modeling UML, GO, Python, HTML, CSS, JavaScript, Vuejs, C, Wordpress, Java, Android Studio, IoT, SQLite, MongoDB, Ruby. Deions of user stories describing acceptance scenarios. Multidisciplinary team management using Agile, SCRUM and Kanban methodologies.Practical knowledge in invoicing, web programming, UX and project analysis."
+
+  # Favicon
+  favicon = ""
+
+  # Section - Visual
+  [params.visual]
+    bio = "Hi, I am Eloisa Potrich. I am 21 years old, I am a student of Software Engineering, with experience in modeling UML, GO, Python, HTML, CSS, JavaScript, Vuejs, C, Wordpress, Java, Android Studio, IoT, SQLite, MongoDB, Ruby. Deions of user stories describing acceptance scenarios. Multidisciplinary team management using Agile, SCRUM and Kanban methodologies.Practical knowledge in invoicing, web programming, UX and project analysis."
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/ada.png"
+      position = "center center"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Blog"
+        url = "#"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "eloisapotrich1@hotmail.com"
+
+      [[params.links.list1.link]]
+        text = "GitHub"
+        url = "https://github.com/EloPo"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "https://twitter.com/ello_po"
+
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "https://www.instagram.com/elloo_p/"
+
+      [[params.links.list2.link]]
+        text = "Meetup"
+        url = "https://www.meetup.com/pt-BR/developerparana/members/225304255/"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Network"
+
+      [[params.links.list3.link]]
+        image = "download.jpeg"
+        text = "LinkedIn"
+        url = "https://br.linkedin.com/in/eloisa-potrich-2ab683145"
+
+      [[params.links.list3.link]]
+        text = "Medium"
+        url = "https://medium.com/@eloisapotrich1"
+
+      [[params.links.list3.link]]
+        text = "Ciranda.me"
+        url = "https://ciranda.me/user/Elo"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
+
+
